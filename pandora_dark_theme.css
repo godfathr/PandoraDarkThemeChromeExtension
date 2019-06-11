@@ -1,0 +1,62 @@
+.NowPlaying__content{
+    transition:none !important;
+    background-color:#333333;
+}
+
+.region-bottomBar
+, .Tuner__Audio__NowPlayingHitArea
+, .region-topBar
+, .region-topBar--browseOrDesktopAppEnabled
+, .MiniBar 
+, .MiniBar--browseOrDestopEnabled
+, .MiniBar--show 
+, .body
+, .region-main
+, .MiniBar__content
+, .Container
+, .BackstageLayout__body
+, .OverlayWrapper__OverlayContainer__OverlayBody
+, .AppBg
+, .region-blueBar
+, .Nav--darkTheme.Nav--scrolled
+, .UserRegion 
+, .UserSettings{
+    background-color:#3c3c3c !important;
+}
+
+.UserRegion 
+, .UserSettings
+,.SideNav__list__link
+, .SideNav__list__link__subLink{
+    color:white !important;
+}
+
+.SideNav__list__link:visited
+, .SideNav__list__link__subLink:visited
+, .SideNav__list__link:visited
+, .SideNav__list__link__subLink:visited {
+    color: rgba(255,255,255,.6) !important;
+}
+
+.NavHorizontal__item__lin
+, .MiniBar__content{
+    color:#fff;
+}
+
+.Nav--darkToLightTheme.Nav--scrolled, .Nav--lightTheme.Nav--scrolled {
+    background-color:#333333 !important;
+}
+
+.MiniBar
+, .MiniBar--show 
+, .MiniBar--browseOrDestopEnabled{
+    background:linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.2)),linear-gradient(0deg,#3c3c3c,#3c3c3c) !important;
+}
+
+.region-blueBar{
+    display:none;
+}
+
+.NowPlaying__content{
+    margin-top: -32px
+}
