@@ -20,7 +20,8 @@
 , .region-blueBar
 , .Nav--darkTheme.Nav--scrolled
 , .UserRegion 
-, .UserSettings{
+, .UserSettings
+, .region-main__content{
     background-color:#3c3c3c !important;
 }
 
@@ -62,4 +63,29 @@
 }
 
 
-/*Add styles necessary for lyrics page below*/
+/*styles for lyrics page*/
+.region-main__content
+, .region-main__content
+, .HeaderBackstage__text__title, .HeaderBackstage__text__title--link
+, .HeaderBackstage__text__subTitle
+, .HeaderBackstage__text__subTitle--lrg
+, .HeaderBackstage__text__subTitle
+, .HeaderBackstage__text__subTitle--lrg
+, .HeaderBackstage__text__subTitle
+, .HeaderBackstage__text__subTitle--sm
+, .HeaderBackstage__text__subTitle
+, .HeaderBackstage__text__subTitle--sm
+, .HeaderBackstage__text__subTitle__link
+, .NavHorizontal__item__link
+, .NavHorizontal__item__link
+, .Lyrics__lyrics__wrapper > p
+, .Lyrics__footer
+, .Lyrics__footer__credits
+, .Footer__navLink
+, .Footer__copyright
+, .NavSecondary__logo 
+, .NavSecondary__logo--lightIcon 
+, .NavSecondary__logo--darkIcon
+{
+        color:#ccc !important;
+}
