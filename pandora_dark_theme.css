@@ -1,91 +1,124 @@
-.NowPlaying__content{
-    transition:none !important;
-    background-color:#333333;
+body {
+    color: #cccccc !important;
 }
 
-.region-bottomBar
-, .Tuner__Audio__NowPlayingHitArea
-, .region-topBar
-, .region-topBar--browseOrDesktopAppEnabled
-, .MiniBar 
-, .MiniBar--browseOrDestopEnabled
-, .MiniBar--show 
-, .body
-, .region-main
-, .MiniBar__content
-, .Container
-, .BackstageLayout__body
-, .OverlayWrapper__OverlayContainer__OverlayBody
-, .AppBg
-, .region-blueBar
-, .Nav--darkTheme.Nav--scrolled
-, .UserRegion 
-, .UserSettings
-, .region-main__content{
-    background-color:#3c3c3c !important;
+.BlurredBackground {
+    display: none !important;
 }
 
-.UserRegion 
-, .UserSettings
-,.SideNav__list__link
-, .SideNav__list__link__subLink{
-    color:white !important;
+.NowPlaying__content {
+    transition: none !important;
+    background-color: #333333;
 }
 
-.SideNav__list__link:visited
-, .SideNav__list__link__subLink:visited
-, .SideNav__list__link:visited
-, .SideNav__list__link__subLink:visited {
-    color: rgba(255,255,255,.6) !important;
+.region-bottomBar,
+.Tuner__Audio__NowPlayingHitArea,
+.region-topBar,
+.region-topBar--browseOrDesktopAppEnabled,
+.MiniBar,
+.MiniBar--browseOrDestopEnabled,
+.MiniBar--show,
+.body,
+.region-main,
+.MiniBar__content,
+.Container,
+.BackstageLayout__body,
+.OverlayWrapper__OverlayContainer__OverlayBody,
+.AppBg,
+.region-blueBar,
+.Nav--darkTheme.Nav--scrolled,
+.UserRegion,
+.UserSettings,
+.region-main__content,
+.SearchResultsList:before,
+.SearchResultsList,
+.EmptySearch__content:before,
+.EmptySearch__content {
+    background-color: #3c3c3c !important;
 }
 
-.NavHorizontal__item__lin
-, .MiniBar__content{
-    color:#fff;
+.UserRegion,
+.UserSettings,
+.SideNav__list__link,
+.SideNav__list__link__subLink {
+    color: white !important;
 }
 
-.Nav--darkToLightTheme.Nav--scrolled, .Nav--lightTheme.Nav--scrolled {
-    background-color:#333333 !important;
+.SideNav__list__link:visited,
+.SideNav__list__link__subLink:visited,
+.SideNav__list__link:visited,
+.SideNav__list__link__subLink:visited,
+.RowItemCenterColumn__mainText,
+.RowItemCenterColumn__secondText,
+.RowItemRightColumnChild {
+    color: rgba(255, 255, 255, .6) !important;
 }
 
-.MiniBar
-, .MiniBar--show 
-, .MiniBar--browseOrDestopEnabled{
-    background:linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.2)),linear-gradient(0deg,#3c3c3c,#3c3c3c) !important;
+.SourceListItem__content {
+    opacity: 0.3 !important;
 }
 
-.region-blueBar{
-    display:none;
+.SourceCard__menu {
+    background: #3c3c3c !important;
+    color: white !important;
 }
 
-.NowPlaying__content{
+
+.NavHorizontal__item__lin,
+.MiniBar__content,
+.DescriptionBackstage,
+.ContentSection__title {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.BackstageFullDescription__backToArtist,
+.DescriptionBackstage a {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.Nav--darkToLightTheme.Nav--scrolled,
+.Nav--lightTheme.Nav--scrolled {
+    background-color: #333333 !important;
+}
+
+.MiniBar,
+.MiniBar--show,
+.MiniBar--browseOrDestopEnabled {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(0deg, #3c3c3c, #3c3c3c) !important;
+}
+
+.region-blueBar {
+    display: none;
+}
+
+.NowPlaying__content {
     margin-top: -32px
 }
 
 
 /*styles for lyrics page*/
-.region-main__content
-, .region-main__content
-, .HeaderBackstage__text__title, .HeaderBackstage__text__title--link
-, .HeaderBackstage__text__subTitle
-, .HeaderBackstage__text__subTitle--lrg
-, .HeaderBackstage__text__subTitle
-, .HeaderBackstage__text__subTitle--lrg
-, .HeaderBackstage__text__subTitle
-, .HeaderBackstage__text__subTitle--sm
-, .HeaderBackstage__text__subTitle
-, .HeaderBackstage__text__subTitle--sm
-, .HeaderBackstage__text__subTitle__link
-, .NavHorizontal__item__link
-, .NavHorizontal__item__link
-, .Lyrics__lyrics__wrapper > p
-, .Lyrics__footer
-, .Lyrics__footer__credits
-, .Footer__navLink
-, .Footer__copyright
-, .NavSecondary__logo 
-, .NavSecondary__logo--lightIcon 
-, .NavSecondary__logo--darkIcon
-{
-        color:#ccc !important;
+.region-main__content,
+.region-main__content,
+.HeaderBackstage__text__title,
+.HeaderBackstage__text__title--link,
+.HeaderBackstage__text__subTitle,
+.HeaderBackstage__text__subTitle--lrg,
+.HeaderBackstage__text__subTitle,
+.HeaderBackstage__text__subTitle--lrg,
+.HeaderBackstage__text__subTitle,
+.HeaderBackstage__text__subTitle--sm,
+.HeaderBackstage__text__subTitle,
+.HeaderBackstage__text__subTitle--sm,
+.HeaderBackstage__text__subTitle__link,
+.NavHorizontal__item__link,
+.NavHorizontal__item__link,
+.Lyrics__lyrics__wrapper>p,
+.Lyrics__footer,
+.Lyrics__footer__credits,
+.Footer__navLink,
+.Footer__copyright,
+.NavSecondary__logo,
+.NavSecondary__logo--lightIcon,
+.NavSecondary__logo--darkIcon {
+    color: #ccc !important;
 }
