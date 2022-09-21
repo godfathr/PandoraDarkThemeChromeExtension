@@ -122,3 +122,56 @@ body {
 .NavSecondary__logo--darkIcon {
     color: #ccc !important;
 }
+
+svg,
+path {
+    fill: white !important;
+}
+
+svg:hover {
+    fill: #3c3c3c !important;
+}
+
+.DisplayThumb--inactive.DisplayThumb--Light .DisplayThumb__flexWrap__Icon,
+.DisplayThumb--inactive.DisplayThumb--Switch .DisplayThumb__flexWrap__Icon,
+.DisplayThumb__flexWrap__count {
+    opacity: .8 !important;
+    color: white !important;
+}
+
+textarea {
+    color: white !important;
+    opacity: 0.8 !important;
+}
+
+*::placeholder {
+    color: white !important;
+    opacity: 0.7 !important;
+}
+
+.GridItem__caption__link,
+.GridItem__caption__text {
+    color: white !important;
+}
+
+.GridItem__caption__text {
+    opacity: 0.6 !important;
+}
+
+.Container__splash {
+    background: none !important;
+    background-color: #3c3c3c !important;
+    background: linear-gradient(45deg, rgb(100, 100, 100) 0%, rgb(186, 187, 192) 75%) !important;
+}
+
+/* /html/body/div[3]/div/main/div/div/div[2] */
+.AddedHeader,
+.AddedHeader--scrolled,
+.AddedHeader--navHidden {
+    background: transparent !important;
+}
+
+.MyMusicEmptyState__header,
+.MyMusicSortDropdown__sortType{
+    color: #ccc !important;
+}

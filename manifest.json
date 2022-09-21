@@ -1,12 +1,7 @@
 {
   "name": "Pandora Dark Theme",
-  "version": "2.1",
+  "version": "3.1",
   "description": "Pandora Dark Theme! Make the glaring colors of Pandora a soft on the eyes experience.",
-  "permissions": [
-    "activeTab",
-    "declarativeContent",
-    "storage"
-  ],
   "icons": {
     "16": "images/pandora_dark_theme_16.png",
     "32": "images/pandora_dark_theme_32.png",
